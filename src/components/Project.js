@@ -14,7 +14,7 @@ function Project(props) {
                 <div key={project.title} style={{border: "1px solid #333"}}>
                     <p key={project.title}>{project.title}</p>
                     <p key={project.image}>{project.image}</p>
-                    <p key={project.link}><a href={project.link}>Deplyed App</a></p>
+                    <p key={project.link}><a href={project.link}>Deployed App</a></p>
                     <p key={project.repo}><a href={project.repo}>Repo</a></p>
                 </div>
             ))}
