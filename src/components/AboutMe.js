@@ -3,7 +3,7 @@ function AboutMe(props){
 
     return(
         <>
-            <p>photo</p>
+            <img src="./images/me.jpg"/>
             <p>I live in Minnesota</p>
             <p>Im a full stack developer</p>
         </>

@@ -3,7 +3,7 @@ function Resume(props){
 
     return(
         <>
-            <p>resume here</p>
+            <a href="./images/resume.pdf" download>resume here</a>
             <p>proficiencies</p>
         </>
     )

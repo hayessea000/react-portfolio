@@ -27,7 +27,7 @@ function Navigation(props){
 
     return(
         <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="">Sean Hayes</Navbar.Brand>
+          <Navbar.Brand className='p-3' href="">Sean Hayes</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link data-link="aboutMe" href="#aboutMe" onClick={handleTabClick}>About Me</Nav.Link>
             <Nav.Link data-link="portfolio" href="#portfolio" onClick={handleTabClick}>Portfolio</Nav.Link>
