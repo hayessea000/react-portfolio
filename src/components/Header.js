@@ -3,10 +3,9 @@ import Navigation from "./Navigation"
 function Header(props){
 
     return(
-        <>
-            <p>Sean Hayes</p>
+        <header>
             <Navigation tab={props.tab} setTab={props.setTab}/>
-        </>
+        </header>
     )
 }
 
