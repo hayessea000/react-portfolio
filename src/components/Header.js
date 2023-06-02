@@ -5,7 +5,7 @@ function Header(props){
     return(
         <>
             <p>Sean Hayes</p>
-            <Navigation/>
+            <Navigation tab={props.tab} setTab={props.setTab}/>
         </>
     )
 }

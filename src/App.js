@@ -2,12 +2,16 @@ import './App.css';
 import Body from './components/Body';
 import Footer from './components/Footer';
 import Header from "./components/Header";
+import { useState, useEffect } from "react"
 
 function App() {
+
+  const [tab, setTab] = useState("aboutMe")
+
   return (
     <div className="App">
-        <Header/>
-        <Body/>
+        <Header tab={tab} setTab={setTab}/>
+        <Body tab={tab}/>
         <Footer/>
     </div>
   );

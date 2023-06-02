@@ -11,12 +11,12 @@ function Project(props) {
     return (
         <>
             {projects.map(project => (
-                <>
-                    <p key={project.id}>{project.title}</p>
-                    <p key={project.id}>{project.image}</p>
-                    <p key={project.id}>{project.link}</p>
-                    <p key={project.id}>{project.repo}</p>
-                </>
+                <div key={project.title} style={{border: "1px solid #333"}}>
+                    <p key={project.title}>{project.title}</p>
+                    <p key={project.image}>{project.image}</p>
+                    <p key={project.link}>{project.link}</p>
+                    <p key={project.repo}>{project.repo}</p>
+                </div>
             ))}
         </>
     )
