@@ -3,7 +3,9 @@ function Footer(props){
 
     return(
         <>
-            <p>Foot</p>
+            <p>github</p>
+            <p>linkedin</p>
+            <p>other</p>
         </>
     )
 }

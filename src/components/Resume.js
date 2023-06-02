@@ -3,7 +3,8 @@ function Resume(props){
 
     return(
         <>
-            <p>hire me</p>
+            <p>resume here</p>
+            <p>proficiencies</p>
         </>
     )
 }

@@ -3,7 +3,9 @@ function AboutMe(props){
 
     return(
         <>
-            <p>this is about me</p>
+            <p>photo</p>
+            <p>I live in Minnesota</p>
+            <p>Im a full stack developer</p>
         </>
     )
 }

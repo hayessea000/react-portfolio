@@ -21,10 +21,6 @@ function Body(props){
     return(
         <>
             {renderPage()}
-            {/* <AboutMe/>
-            <Project/>
-            <Contact/>
-            <Resume/> */}
         </>
     )
 }
