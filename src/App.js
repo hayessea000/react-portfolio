@@ -1,12 +1,14 @@
-
 import './App.css';
+import Body from './components/Body';
+import Footer from './components/Footer';
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Header/>
+        <Body/>
+        <Footer/>
     </div>
   );
 }

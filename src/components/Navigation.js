@@ -3,7 +3,10 @@ function Navigation(props){
 
     return(
         <>
-            <p></p>
+            <p>About Me</p>
+            <p>Portfolio</p>
+            <p>Contact</p>
+            <p>Resume</p>
         </>
     )
 }

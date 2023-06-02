@@ -1,9 +1,11 @@
+import Navigation from "./Navigation"
 
 function Header(props){
 
     return(
         <>
-            <p></p>
+            <p>Sean Hayes</p>
+            <Navigation/>
         </>
     )
 }

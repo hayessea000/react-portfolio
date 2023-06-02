@@ -3,7 +3,7 @@ function Footer(props){
 
     return(
         <>
-            <p></p>
+            <p>Foot</p>
         </>
     )
 }

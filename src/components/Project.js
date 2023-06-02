@@ -3,7 +3,9 @@ function Project(props){
 
     return(
         <>
-            <p></p>
+            <p>project</p>
+            <p>project</p>
+            <p>project</p>
         </>
     )
 }
