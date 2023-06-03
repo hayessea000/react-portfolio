@@ -8,8 +8,26 @@
   min-height: 90vh;
 }
 
+.projectCard {
+  width: 20%
+}
+
+@media screen and (max-width: 1000px) {
+  .projectCard {
+    width: 30%
+  }
+}
+
 @media screen and (max-width: 640px) {
   * {
     font-size: xx-small;
+  }
+
+  .shiftD {
+    margin-top: 20px;
+  }
+
+  .projectCard {
+    width: 40%
   }
 }
