@@ -9,11 +9,6 @@ function Footer(props) {
                 <a className="text-light p-3" href="https://www.facebook.com/">Facebook</a>
             </div>
         </footer>
-        // <div className="bg-dark row">
-        //     <p><a href="https://github.com/hayessea000">GitHub</a></p>
-        //     <p><a href="https://www.linkedin.com/">Linkedin</a></p>
-        //     <p><a href="https://www.facebook.com/">Facebook</a></p>
-        // </div>
     )
 }
 

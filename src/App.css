@@ -2,8 +2,14 @@
   margin-top: 78px;
 }
 
+#root {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(19, 34, 6, 1) 35%, rgba(44, 49, 50, 1) 100%);
+  min-height: 90vh;
+}
+
 @media screen and (max-width: 640px) {
-    * {
-      font-size: xx-small;
-    }
+  * {
+    font-size: xx-small;
+  }
 }

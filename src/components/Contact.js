@@ -10,25 +10,25 @@ function Contact(props){
     const handleError = (event) => {
         if (event.target.name=== "email"){
             if(!validate(event.target.value)){
-                setError("email error")
+                setError("not a valid email")
             }
         }
         if (event.target.value === ""){
-            setError("This feild is req")
+            setError("The feild can not be blank")
         }
     }
 
     return(
         <div className="shiftD">
-            <p>{error}</p>
              <form className="text-center">
                 <label>Contact me</label>
                 <div className="row w-50 mx-auto">
                     <input className="col-6" onBlur={(event)=> handleError(event)} onFocus={()=> setError("")} type="text" placeholder="Your name here" name="name" value={contactData.name} onChange={handleInputChange} />
                     <input className="col-6" onBlur={(event)=> handleError(event)} onFocus={()=> setError("")} type="text" placeholder="Your Email" name="email" value={contactData.email} onChange={handleInputChange} />
                 </div>
-                <input className="row w-50 mx-auto"onBlur={(event)=> handleError(event)} onFocus={()=> setError("")}type="text" placeholder="Your message" name="message" value={contactData.message} onChange={handleInputChange} />
+                <textarea className="row w-50 mx-auto message"onBlur={(event)=> handleError(event)} onFocus={()=> setError("")}type="text" placeholder="Your message" rows={5} name="message" value={contactData.message} onChange={handleInputChange} />
                 <button className="w-50">Contact</button>
+                <p className="text-light">{error}</p>
             </form>
         </div>
     )
