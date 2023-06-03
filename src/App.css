@@ -1,0 +1,9 @@
+.shiftD {
+  margin-top: 78px;
+}
+
+@media screen and (max-width: 640px) {
+    * {
+      font-size: xx-small;
+    }
+}

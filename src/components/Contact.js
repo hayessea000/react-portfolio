@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState} from "react"
 import {validate} from "react-email-validator"
 
 function Contact(props){
@@ -19,16 +19,18 @@ function Contact(props){
     }
 
     return(
-        <>
+        <div className="shiftD">
             <p>{error}</p>
-             <form>
+             <form className="text-center">
                 <label>Contact me</label>
-                <input onBlur={(event)=> handleError(event)} onFocus={()=> setError("")} type="text" placeholder="Your name here" name="name" value={contactData.name} onChange={handleInputChange} />
-                <input onBlur={(event)=> handleError(event)} onFocus={()=> setError("")} type="text" placeholder="Your Email" name="email" value={contactData.email} onChange={handleInputChange} />
-                <input onBlur={(event)=> handleError(event)} onFocus={()=> setError("")}type="text" placeholder="Your message" name="message" value={contactData.message} onChange={handleInputChange} />
-                <button>Contact</button>
+                <div className="row w-50 mx-auto">
+                    <input className="col-6" onBlur={(event)=> handleError(event)} onFocus={()=> setError("")} type="text" placeholder="Your name here" name="name" value={contactData.name} onChange={handleInputChange} />
+                    <input className="col-6" onBlur={(event)=> handleError(event)} onFocus={()=> setError("")} type="text" placeholder="Your Email" name="email" value={contactData.email} onChange={handleInputChange} />
+                </div>
+                <input className="row w-50 mx-auto"onBlur={(event)=> handleError(event)} onFocus={()=> setError("")}type="text" placeholder="Your message" name="message" value={contactData.message} onChange={handleInputChange} />
+                <button className="w-50">Contact</button>
             </form>
-        </>
+        </div>
     )
 }
 

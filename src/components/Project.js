@@ -9,7 +9,7 @@ function Project(props) {
         { id: "6",  title: "Todo Calendar", image: "todo-calendar.png", link: "https://hayessea000.github.io/todo-calendar/", repo: "https://github.com/hayessea000/todo-calendar" }
     ]
     return (
-        <>
+        <div className="shiftD">
             {projects.map(project => (
                 <div key={project.title} style={{border: "1px solid #333"}}>
                     <p key={project.title}>{project.title}</p>
@@ -18,7 +18,7 @@ function Project(props) {
                     <p key={project.repo}><a href={project.repo}>Repo Link</a></p>
                 </div>
             ))}
-        </>
+        </div>
     )
 }
 
