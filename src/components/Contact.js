@@ -30,6 +30,10 @@ function Contact(props){
                 <button className="w-50">Contact</button>
                 <p className="text-light">{error}</p>
             </form>
+            <div className="text-light text-center">
+            <h2>Form is under construction!</h2>
+            <p>Contact via Linkedin or through information in resume</p>
+            </div>
         </div>
     )
 }
