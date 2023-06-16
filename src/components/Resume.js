@@ -24,14 +24,14 @@ function Resume(props) {
                         <Carousel.Item interval={6000}>
                             <img
                                 className="d-block w-100 rounded"
-                                src="./images/Resume1.png"
+                                src="./images/Resume1.PNG"
                                 alt="resume page one"
                             />
                         </Carousel.Item>
                         <Carousel.Item interval={6000}>
                             <img
                                 className="d-block w-100 rounded"
-                                src="./images/Resume2.png"
+                                src="./images/Resume2.PNG"
                                 alt="resume page two"
                             />
                         </Carousel.Item>

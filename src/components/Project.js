@@ -7,9 +7,9 @@ function Project(props) {
         { id: "4", title: "Weather Forecast", image: "weather-forecast.png", link: "https://hayessea000.github.io/weather-forecast/", repo: "https://github.com/hayessea000/weather-forecast" },
         { id: "5", title: "J.A.T.E", image: "jateimage.png", link: "https://jate-hayessea000.herokuapp.com/", repo: "https://github.com/hayessea000/JATE" },
         { id: "6", title: "Tech Blog", image: "techblogimage.png", link: "https://tech-blog-hayessea000.herokuapp.com/", repo: "https://github.com/hayessea000/tech-blog" },
-        { id: "7", title: "E-commerce Back-end", image: "e-commerce.png", link: "n/a", repo: "https://github.com/hayessea000/e-commerce-back-end" },
-        { id: "8", title: "Readme Generator", image: "readmeGen.png", link: "n/a", repo: "https://github.com/hayessea000/readme-generator" },
-        { id: "9", title: "Todo Calendar", image: "todo-calendar.png", link: "https://hayessea000.github.io/todo-calendar/", repo: "https://github.com/hayessea000/todo-calendar" }
+        { id: "7", title: "E-commerce Back-end", image: "e-commerce.PNG", link: "n/a", repo: "https://github.com/hayessea000/e-commerce-back-end" },
+        { id: "8", title: "Readme Generator", image: "readmeGen.PNG", link: "n/a", repo: "https://github.com/hayessea000/readme-generator" },
+        { id: "9", title: "ToDo Calendar", image: "todo-calendar.png", link: "https://hayessea000.github.io/todo-calendar/", repo: "https://github.com/hayessea000/todo-calendar" }
     ]
     return (
         <div className="shiftD d-flex flex-wrap justify-content-around">
