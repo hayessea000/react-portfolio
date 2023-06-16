@@ -3,10 +3,13 @@ function Project(props) {
     const projects = [
         { id: "1", title: "Discussion Board", image: "discussionBoardImage.png", link: "https://discussion-board-hayessea000.herokuapp.com/", repo: "https://github.com/hayessea000/discussion-board" },
         { id: "2", title: "What To Eat", image: "whattoeat.png", link: "https://hayessea000.github.io/what-to-eat", repo: "https://github.com/hayessea000/what-to-eat" },
-        { id: "3", title: "Tech Blog", image: "techblogimage.png", link: "https://tech-blog-hayessea000.herokuapp.com/", repo: "https://github.com/hayessea000/tech-blog" },
+        { id: "3", title: "Gradebook", image: "gradebook-homepage.png", link: "https://umb-gradebook.herokuapp.com/", repo: "https://github.com/JoshuaMartinez1014/gradebook" },
         { id: "4", title: "Weather Forecast", image: "weather-forecast.png", link: "https://hayessea000.github.io/weather-forecast/", repo: "https://github.com/hayessea000/weather-forecast" },
         { id: "5", title: "J.A.T.E", image: "jateimage.png", link: "https://jate-hayessea000.herokuapp.com/", repo: "https://github.com/hayessea000/JATE" },
-        { id: "6", title: "Todo Calendar", image: "todo-calendar.png", link: "https://hayessea000.github.io/todo-calendar/", repo: "https://github.com/hayessea000/todo-calendar" }
+        { id: "6", title: "Tech Blog", image: "techblogimage.png", link: "https://tech-blog-hayessea000.herokuapp.com/", repo: "https://github.com/hayessea000/tech-blog" },
+        { id: "7", title: "E-commerce Back-end", image: "e-commerce.png", link: "n/a", repo: "https://github.com/hayessea000/e-commerce-back-end" },
+        { id: "8", title: "Readme Generator", image: "readmeGen.png", link: "n/a", repo: "https://github.com/hayessea000/readme-generator" },
+        { id: "9", title: "Todo Calendar", image: "todo-calendar.png", link: "https://hayessea000.github.io/todo-calendar/", repo: "https://github.com/hayessea000/todo-calendar" }
     ]
     return (
         <div className="shiftD d-flex flex-wrap justify-content-around">
@@ -16,8 +19,8 @@ function Project(props) {
                     <div className="card-body">
                         <h5 className="card-title">{project.title}</h5>
                     </div>
-                    <div className="card-body">
-                        <a href={project.link} className="card-link">Deployed App</a>
+                    <div className="card-body d-flex">
+                        {project.link==="n/a"?(<p style={{marginRight: "5px"}}>Nothing Deployed</p>):(<a href={project.link} className="card-link">Deployed App</a>)}
                         <a href={project.repo} className="card-link">Repo Link</a>
                     </div>
                 {/* </div> */}
